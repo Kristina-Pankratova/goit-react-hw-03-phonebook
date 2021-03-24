@@ -1,0 +1,23 @@
+.contactList {
+  margin-left: 40px;
+  padding: 20px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  border: 1px solid rgba(100, 148, 237, 0.534);
+}
+
+.contactItem {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid cornflowerblue;
+}
+
+.contactItem button {
+  margin-left: 10px;
+  background-color: rgba(100, 148, 237, 0.397);
+  border: 1px solid cornflowerblue;
+  border-radius: 5%;
+}

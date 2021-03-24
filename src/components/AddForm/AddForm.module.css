@@ -1,0 +1,32 @@
+.contactForm {
+    margin-left: 40px;
+    padding: 20px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(100, 148, 237, 0.534);
+}
+
+.contactForm label {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+
+.contactForm label input:focus {
+   
+  outline: none;
+  border: 1px solid cornflowerblue;
+
+}
+
+.addContBut {
+    margin-top: 10px;
+    background-color: rgba(100, 148, 237, 0.397);
+    border: 1px solid cornflowerblue;
+    border-radius: 5%;
+}
